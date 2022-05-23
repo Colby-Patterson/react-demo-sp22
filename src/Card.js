@@ -1,9 +1,9 @@
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="container">
       <div className="bio">
-        <h3>User Name</h3>
-        <p>About user</p>
+        <h3 className="user-name">{props.name || 'no name prop given'}</h3>
+        <p>{props.about || 'no about prop given'}</p>
       </div>
     </div>  
   )

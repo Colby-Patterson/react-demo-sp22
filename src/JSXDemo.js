@@ -4,7 +4,7 @@
 
 // This is a React functional component (preferred)
 // This is a function => returns JSX
-function JSXDemo() {
+function JSXDemo(props) {
   let name = "Joey";
   let num = 2
   let showThing = true
