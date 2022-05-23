@@ -2,12 +2,10 @@ const Card = () => {
   return (
     <div className="container">
       <div className="bio">
-      <h3>User Name</h3>
-      </div>
-      <div className="about">
+        <h3>User Name</h3>
         <p>About user</p>
       </div>
-    </div>
+    </div>  
   )
 }
 
